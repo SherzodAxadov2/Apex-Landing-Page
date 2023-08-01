@@ -1,5 +1,5 @@
 <template>
-  <div class="headerMain">
+  <div>
     <Header />
     <StartChatting />
     <nextChatting />
