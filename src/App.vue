@@ -8,6 +8,7 @@
     <navbar />
     <background />
   </div>
+  <!-- git add . git commit -m 'fix: data ' git push  git pull origin main git reset --hard  -->
 </template>
 
 <script lang="js">
