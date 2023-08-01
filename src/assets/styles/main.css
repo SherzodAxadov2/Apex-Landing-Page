@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #1B1C20;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+.container {
+    width: 100%;
+    padding-inline: 50px;
+}
+
+header {
+    margin: 21px 0 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1B1C20;
+    position: relative;
+}
+
+.navbar li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    left: 50%;
+    height: 2px;
+    background: #1B1C20;
+    transition: all .3s;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.header_btn {
+    display: flex;
+    gap: 34px;
+}
+
+
+.login {
+    font-weight: 500;
+    line-height: 30px
+}
+
+.btn {
+    background-color: #FB8E0B;
+    border-radius: 8px;
+    padding: 13px 20px;
+    color: white;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid;
+    transition: all .3s;
+}
+
+.btn:hover {
+    color: #FB8E0B;
+    background: white;
+}
+/* .headerMain {
+    width: 1600px;
+    height: 4519px;
+} */
